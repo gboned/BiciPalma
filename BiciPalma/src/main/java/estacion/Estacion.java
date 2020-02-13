@@ -19,4 +19,8 @@ public class Estacion {
 		
 		
 	}
+	// Creo el método que indica los anclajes que hay en la estación
+	public String anclajesLibres() {
+		return "anclajesLibres: " + this.numerosAnclajes;
+	}
 }

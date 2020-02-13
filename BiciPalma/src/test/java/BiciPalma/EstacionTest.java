@@ -15,5 +15,12 @@ public class EstacionTest {
 		Estacion estacion = new Estacion(1, "Manacor", 6);
 		assertEquals("id: 1\ndireccion: Manacor\nnumerosAnclajes: 6", estacion.consultarEstacion());
 	}
-
+	
+	@Test
+	// En este test se comprueba que el método de anclajesLibres devuelva el número de
+	// anclajes que hay en la estación
+	public void anclajesLibresTest() {
+		Estacion estacion = new Estacion(1, "Manacor", 6);
+		assertEquals("anclajesLibres: 6", estacion.anclajesLibres());
+	}
 }
