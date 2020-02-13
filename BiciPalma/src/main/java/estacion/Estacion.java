@@ -1,4 +1,4 @@
-package BiciPalma;
+package estacion;
 
 public class Estacion {
 	// Creo los atributos de la clase
