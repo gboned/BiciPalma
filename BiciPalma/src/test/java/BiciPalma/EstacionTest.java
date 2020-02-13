@@ -7,7 +7,7 @@ import org.junit.Test;
 import estacion.Estacion;
 
 public class EstacionTest {
-
+	
 	@Test
 	// En este test se comprueba que cuando se crea un nuevo objeto de la clase
 	// Estacion, lo devuelva de la forma que se espera
@@ -22,5 +22,10 @@ public class EstacionTest {
 	public void anclajesLibresTest() {
 		Estacion estacion = new Estacion(1, "Manacor", 6);
 		assertEquals("anclajesLibres: 6", estacion.anclajesLibres());
+	}
+	
+	@Test
+	public void consultarAnclajesTest() {
+		
 	}
 }
