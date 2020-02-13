@@ -1,16 +1,5 @@
-BiciPalma.java
-La setmana passada
-3 de febr.
-D
-David Gelpi Fleta ha creat i compartit 1 element a
-Carpeta de Google Drive
-Bicipalma
-Java
-BiciPalma.java
 
-Pot visualitzar
-L'usuari
-package appalma;
+package BiciPalma;
 
 import bicicleta.Bicicleta;
 import estacion.Estacion;
