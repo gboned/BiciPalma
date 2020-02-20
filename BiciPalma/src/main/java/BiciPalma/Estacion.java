@@ -29,7 +29,7 @@ public class Estacion<Bici> {
 	// Creo el siguiente método para indicar lo que se tiene que devolver
 	// cuando se quiere consultar la estación
 	public String consultarEstacion() {
-		return "id: " + id + "\ndireccion: " + direccion + "\nnumerosAnclajes: " + numerosAnclajes;
+		return "id: " + getId() + "\ndireccion: " + getDireccion() + "\nnumerosAnclajes: " + getNumeroAnclajes();
 
 	}
 	// Creo el método que indica los anclajes que hay en la estación
