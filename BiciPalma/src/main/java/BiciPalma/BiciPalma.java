@@ -1,6 +1,7 @@
 
 package BiciPalma;
 
+import BiciPalma.Estacion;
 import bicicleta.Bicicleta;
 import tarjetaUsuario.TarjetaUsuario;
 
