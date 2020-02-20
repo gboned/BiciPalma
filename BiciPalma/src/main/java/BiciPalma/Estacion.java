@@ -34,6 +34,18 @@ public class Estacion<Bici> {
 	}
 	// Creo el método que indica los anclajes que hay en la estación
 	public String anclajesLibres() {
+		// Creo un contador
+		int contAnclajesLibres = 0;
+		// Recorre la array creada en los atributos referente a las bicis que hay en los anclajes
+		for (Bicicleta anclaje:this.anclajes) {
+			// Si en los anclajes no hay bici, que sume uno al contador
+			if (anclajes == null) {
+				contAnclajesLibres += 1;
+			} else 
+					;
+			}
+			return contAnclajesLibres;
+		}
 		return "anclajesLibres: " + this.numerosAnclajes;
 	}
 	
