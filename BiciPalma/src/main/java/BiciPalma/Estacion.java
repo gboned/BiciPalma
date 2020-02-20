@@ -1,11 +1,11 @@
-package estacion;
+package BiciPalma;
 
 public class Estacion {
 	// Creo los atributos de la clase
 	private int id;
 	private String direccion;
 	private int numerosAnclajes;
-	private int[] anclajes = new int[numerosAnclajes];
+	private int[] anclajes = new int[6];
 	// Creo el constructor de la clase, a lo que se accede cuando se crea un nuevo
 	// objeto de la clase Estacion
 	public Estacion(int id, String direccion, int numerosAnclajes) {

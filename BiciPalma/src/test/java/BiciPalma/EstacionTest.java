@@ -4,10 +4,11 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import estacion.Estacion;
+import BiciPalma.*;
 
 public class EstacionTest {
-	
+	// Creación de objeto para usarlo en los tests
+	Estacion estacion = new Estacion(1, "Manacor", 6);
 	@Test
 	// En este test se comprueba que cuando se crea un nuevo objeto de la clase
 	// Estacion, lo devuelva de la forma que se espera
