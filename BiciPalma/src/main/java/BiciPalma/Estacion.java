@@ -33,7 +33,7 @@ public class Estacion<Bici> {
 
 	}
 	// Creo el método que indica los anclajes que hay en la estación
-	public String anclajesLibres() {
+	public int anclajesLibres() {
 		// Creo un contador
 		int contAnclajesLibres = 0;
 		// Recorre la array creada en los atributos referente a las bicis que hay en los anclajes
