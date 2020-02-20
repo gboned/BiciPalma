@@ -13,8 +13,10 @@ public class EstacionTest {
 	// En este test se comprueba que cuando se crea un nuevo objeto de la clase
 	// Estacion, lo devuelva de la forma que se espera
 	public void consultarEstacionTest() {
-		Estacion estacion = new Estacion(1, "Manacor", 6);
-		assertEquals("id: 1\ndireccion: Manacor\nnumerosAnclajes: 6", estacion.consultarEstacion());
+		// Comprueba que los detalles que devuelve de la clase son los correctos
+		assertEquals(1, estacion.getId());
+		assertEquals("Manacor", estacion.getDireccion());
+		assertEquals(6, estacion.getNumeroAnclajes());
 	}
 	
 	@Test
