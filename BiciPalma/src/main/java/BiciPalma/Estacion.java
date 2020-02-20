@@ -1,18 +1,20 @@
 package BiciPalma;
 
+import BiciPalma.Bicicleta;
+
 public class Estacion<Bici> {
 	// Creo los atributos de la clase
 	private int id = 0;
 	private String direccion = null;
 	private int numerosAnclajes = 0;
-//	private Bicicleta[] anclajes = null;
+	private Bicicleta[] anclajes = null;
 	// Creo el constructor de la clase, a lo que se accede cuando se crea un nuevo
 	// objeto de la clase Estacion
 	public Estacion(int id, String direccion, int numerosAnclajes) {
 		this.id = id;
 		this.direccion = direccion;
 		this.numerosAnclajes = numerosAnclajes;
-//		this.anclajes = new Bicicleta[anclajes];
+		this.anclajes = new Bicicleta[anclajes];
 	}
 	
 	public int getId() {
