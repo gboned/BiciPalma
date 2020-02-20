@@ -46,7 +46,6 @@ public class Estacion<Bici> {
 			}
 			return contAnclajesLibres;
 		}
-		return "anclajesLibres: " + this.numerosAnclajes;
 	}
 	
-}
+
